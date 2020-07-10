@@ -1,0 +1,614 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+@media screen and (min-width:0px){
+	#Yasaka {
+		position: relative;
+		margin-left: auto;
+		margin-right: auto;
+		text-align: center;
+		width: 375px;
+		height: 3198px;
+		background-color: rgba(255,255,255,1);
+		overflow: hidden;
+	}
+	#instagram {
+		position: absolute;
+		overflow: hidden;
+		width: 280px;
+		height: 626px;
+		left: 48px;
+		top: 1991px;
+	}
+	#yasaka_ar {
+		position: absolute;
+		width: 282px;
+		height: 158.75px;
+		left: 47px;
+		top: 127px;
+		overflow: visible;
+	}
+	#youtube {
+		position: absolute;
+		width: 281px;
+		height: 168.986px;
+		left: 47px;
+		top: 317px;
+		overflow: visible;
+	}
+	#yasaka_detail {
+		left: 48px;
+		top: 565px;
+		position: absolute;
+		overflow: visible;
+		width: 281px;
+		height: 274px;
+		text-align: left;
+		font-family: Arial;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 14px;
+		color: rgba(66,66,66,1);
+	}
+	#youtube_u {
+		fill: transparent;
+		stroke: rgba(60,190,200,1);
+		stroke-width: 5px;
+		stroke-linejoin: miter;
+		stroke-linecap: butt;
+		stroke-miterlimit: 4;
+		shape-rendering: auto;
+	}
+	.youtube_u {
+		overflow: visible;
+		position: absolute;
+		width: 297px;
+		height: 1px;
+		left: 39.5px;
+		top: 516px;
+		transform: matrix(1,0,0,1,0,0);
+	}
+	#detail_u {
+		fill: transparent;
+		stroke: rgba(60,190,200,1);
+		stroke-width: 5px;
+		stroke-linejoin: miter;
+		stroke-linecap: butt;
+		stroke-miterlimit: 4;
+		shape-rendering: auto;
+	}
+	.detail_u {
+		overflow: visible;
+		position: absolute;
+		width: 297px;
+		height: 1px;
+		left: 39.5px;
+		top: 850px;
+		transform: matrix(1,0,0,1,0,0);
+	}
+	#ID2020_detail {
+		left: 112px;
+		top: 1074px;
+		position: absolute;
+		overflow: visible;
+		width: 237px;
+		height: 117px;
+		line-height: 25px;
+		margin-top: -5.5px;
+		text-align: left;
+		font-family: Arial;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 14px;
+		color: rgba(66,66,66,1);
+	}
+	#ID2020_months {
+		left: 60px;
+		top: 1074px;
+		position: absolute;
+		overflow: visible;
+		width: 40px;
+		height: 117px;
+		line-height: 25px;
+		margin-top: -5.5px;
+		text-align: center;
+		font-family: Arial;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 14px;
+		color: rgba(66,66,66,1);
+	}
+	#ID2020_u {
+		fill: transparent;
+		stroke: rgba(60,190,200,1);
+		stroke-width: 5px;
+		stroke-linejoin: miter;
+		stroke-linecap: butt;
+		stroke-miterlimit: 4;
+		shape-rendering: auto;
+	}
+	.ID2020_u {
+		overflow: visible;
+		position: absolute;
+		width: 297px;
+		height: 1px;
+		left: 39.5px;
+		top: 1221px;
+		transform: matrix(1,0,0,1,0,0);
+	}
+	#ID2019_detail {
+		left: 112px;
+		top: 916px;
+		position: absolute;
+		overflow: visible;
+		width: 237px;
+		height: 92px;
+		line-height: 25px;
+		margin-top: -5.5px;
+		text-align: left;
+		font-family: Arial;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 14px;
+		color: rgba(66,66,66,1);
+	}
+	#ID2019_months {
+		left: 60px;
+		top: 916px;
+		position: absolute;
+		overflow: visible;
+		width: 40px;
+		height: 92px;
+		line-height: 25px;
+		margin-top: -5.5px;
+		text-align: center;
+		font-family: Arial;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 14px;
+		color: rgba(66,66,66,1);
+	}
+	#ID2019 {
+		left: 48px;
+		top: 880px;
+		position: absolute;
+		overflow: visible;
+		width: 203px;
+		height: 28px;
+		text-align: left;
+		font-family: Arial;
+		font-style: normal;
+		font-weight: bold;
+		font-size: 20px;
+		color: rgba(66,66,66,1);
+	}
+	#ID2020 {
+		left: 48px;
+		top: 1038px;
+		position: absolute;
+		overflow: visible;
+		width: 203px;
+		height: 28px;
+		text-align: left;
+		font-family: Arial;
+		font-style: normal;
+		font-weight: bold;
+		font-size: 20px;
+		color: rgba(66,66,66,1);
+	}
+	#Yasaka_Shrine {
+		left: 47px;
+		top: 72px;
+		position: absolute;
+		overflow: visible;
+		width: 267px;
+		height: 33px;
+		text-align: left;
+		font-family: Arial;
+		font-style: normal;
+		font-weight: bold;
+		font-size: 25px;
+		color: rgba(66,66,66,1);
+	}
+	#yasaka_u {
+		fill: transparent;
+		stroke: rgba(60,190,200,1);
+		stroke-width: 5px;
+		stroke-linejoin: miter;
+		stroke-linecap: butt;
+		stroke-miterlimit: 4;
+		shape-rendering: auto;
+	}
+	.yasaka_u {
+		overflow: visible;
+		position: absolute;
+		width: 297px;
+		height: 1px;
+		left: 39.5px;
+		top: 105px;
+		transform: matrix(1,0,0,1,0,0);
+	}
+	#instagram_u {
+		fill: transparent;
+		stroke: rgba(60,190,200,1);
+		stroke-width: 5px;
+		stroke-linejoin: miter;
+		stroke-linecap: butt;
+		stroke-miterlimit: 4;
+		shape-rendering: auto;
+	}
+	.instagram_u {
+		overflow: visible;
+		position: absolute;
+		width: 297px;
+		height: 1px;
+		left: 39.5px;
+		top: 2648px;
+		transform: matrix(1,0,0,1,0,0);
+	}
+	#twitter {
+		position: absolute;
+		overflow: visible;
+		width: 280px;
+		height: 709px;
+		left: 48px;
+		top: 1251px;
+	}
+	#footer {
+		fill: rgba(38,122,127,1);
+	}
+	.footer {
+		position: absolute;
+		overflow: visible;
+		width: 375px;
+		height: 146px;
+		left: -20px;
+		top: 3052px;
+	}
+	#Eng_White {
+		position: absolute;
+		width: 200px;
+		height: 37.348px;
+		left: 88px;
+		top: 3097px;
+		overflow: visible;
+	}
+	#__Mamoru_Tanabe__2020 {
+		left: 103px;
+		top: 3162px;
+		position: absolute;
+		overflow: visible;
+		width: 170px;
+		height: 11px;
+		text-align: center;
+		font-family: Arial;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 10px;
+		color: rgba(255,255,255,1);
+	}
+	#Top {
+		position: absolute;
+		width: 320px;
+		height: 91.993px;
+		left: 28px;
+		top: 2678px;
+		overflow: visible;
+		cursor: pointer;
+	}
+	#QE {
+		position: absolute;
+		width: 320px;
+		height: 215.167px;
+		left: 28px;
+		top: 2774px;
+		overflow: visible;
+		cursor: pointer;
+	}
+}
+@media screen and (min-width:900px){
+	#Yasaka {
+		position: relative;
+		margin-left: auto;
+		margin-right: auto;
+		text-align: center;
+		width: 1280px;
+		height: 3656px;
+		background-color: rgba(255,255,255,1);
+		overflow: hidden;
+	}
+	#twitter {
+		position: absolute;
+		width: 409px;
+		height: 497.375px;
+		left: 140.304px;
+		top: 2091.929px;
+		overflow: visible;
+	}
+	#yasaka_ar {
+		position: absolute;
+		width: 1000px;
+		height: 562.5px;
+		left: 140.256px;
+		top: 202.929px;
+		overflow: visible;
+	}
+	#youtube {
+		position: absolute;
+		width: 1000px;
+		height: 603.286px;
+		left: 140px;
+		top: 822.929px;
+		overflow: visible;
+	}
+	#yasaka_detail {
+		left: 140px;
+		top: 1590.929px;
+		position: absolute;
+		overflow: visible;
+		width: 1001px;
+		height: 178px;
+		text-align: left;
+		font-family: Arial;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 14px;
+		color: rgba(66,66,66,1);
+	}
+	#instagram {
+		position: absolute;
+		width: 407px;
+		height: 660.227px;
+		left: 672.304px;
+		top: 2091.929px;
+		overflow: visible;
+	}
+	#youtube_u {
+		fill: transparent;
+		stroke: rgba(60,190,200,1);
+		stroke-width: 2px;
+		stroke-linejoin: miter;
+		stroke-linecap: butt;
+		stroke-miterlimit: 4;
+		shape-rendering: auto;
+	}
+	.youtube_u {
+		overflow: visible;
+		position: absolute;
+		width: 1078px;
+		height: 1px;
+		left: 101px;
+		top: 1540.929px;
+		transform: matrix(1,0,0,1,0,0);
+	}
+	#detail_u {
+		fill: transparent;
+		stroke: rgba(60,190,200,1);
+		stroke-width: 2px;
+		stroke-linejoin: miter;
+		stroke-linecap: butt;
+		stroke-miterlimit: 4;
+		shape-rendering: auto;
+	}
+	.detail_u {
+		overflow: visible;
+		position: absolute;
+		width: 1078px;
+		height: 1px;
+		left: 101px;
+		top: 1798.929px;
+		transform: matrix(1,0,0,1,0,0);
+	}
+	#ID2020_u {
+		fill: transparent;
+		stroke: rgba(60,190,200,1);
+		stroke-width: 2px;
+		stroke-linejoin: miter;
+		stroke-linecap: butt;
+		stroke-miterlimit: 4;
+		shape-rendering: auto;
+	}
+	.ID2020_u {
+		overflow: visible;
+		position: absolute;
+		width: 1078px;
+		height: 1px;
+		left: 101px;
+		top: 2031.929px;
+		transform: matrix(1,0,0,1,0,0);
+	}
+	#ID2019_detail {
+		left: 193px;
+		top: 1874.929px;
+		position: absolute;
+		overflow: visible;
+		width: 237px;
+		height: 92px;
+		line-height: 25px;
+		margin-top: -5.5px;
+		text-align: left;
+		font-family: Arial;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 14px;
+		color: rgba(66,66,66,1);
+	}
+	#ID2019_months {
+		left: 140px;
+		top: 1874.929px;
+		position: absolute;
+		overflow: visible;
+		width: 40px;
+		height: 92px;
+		line-height: 25px;
+		margin-top: -5.5px;
+		text-align: center;
+		font-family: Arial;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 14px;
+		color: rgba(66,66,66,1);
+	}
+	#ID2019 {
+		left: 145px;
+		top: 1838.929px;
+		position: absolute;
+		overflow: visible;
+		width: 203px;
+		height: 27px;
+		text-align: left;
+		font-family: Arial;
+		font-style: normal;
+		font-weight: bold;
+		font-size: 20px;
+		color: rgba(66,66,66,1);
+	}
+	#ID2020_detail {
+		left: 602px;
+		top: 1874.929px;
+		position: absolute;
+		overflow: visible;
+		width: 237px;
+		height: 117px;
+		line-height: 25px;
+		margin-top: -5.5px;
+		text-align: left;
+		font-family: Arial;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 14px;
+		color: rgba(66,66,66,1);
+	}
+	#ID2020_months {
+		left: 549px;
+		top: 1874.929px;
+		position: absolute;
+		overflow: visible;
+		width: 40px;
+		height: 117px;
+		line-height: 25px;
+		margin-top: -5.5px;
+		text-align: center;
+		font-family: Arial;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 14px;
+		color: rgba(66,66,66,1);
+	}
+	#ID2020 {
+		left: 554px;
+		top: 1838.929px;
+		position: absolute;
+		overflow: visible;
+		width: 203px;
+		height: 27px;
+		text-align: left;
+		font-family: Arial;
+		font-style: normal;
+		font-weight: bold;
+		font-size: 20px;
+		color: rgba(66,66,66,1);
+	}
+	#Yasaka_Shrine {
+		left: 108.642px;
+		top: 100px;
+		position: absolute;
+		overflow: visible;
+		width: 1047.616px;
+		height: 71.92881774902344px;
+		text-align: left;
+		font-family: Arial;
+		font-style: normal;
+		font-weight: bold;
+		font-size: 40px;
+		color: rgba(66,66,66,1);
+	}
+	#yasaka_u {
+		fill: transparent;
+		stroke: rgba(60,190,200,1);
+		stroke-width: 2px;
+		stroke-linejoin: miter;
+		stroke-linecap: butt;
+		stroke-miterlimit: 4;
+		shape-rendering: auto;
+	}
+	.yasaka_u {
+		overflow: visible;
+		position: absolute;
+		width: 1078px;
+		height: 1px;
+		left: 101px;
+		top: 145.929px;
+		transform: matrix(1,0,0,1,0,0);
+	}
+	#footer {
+		fill: rgba(38,122,127,1);
+	}
+	.footer {
+		position: absolute;
+		overflow: visible;
+		width: 1280px;
+		height: 285px;
+		left: 0px;
+		top: 3371.929px;
+	}
+	#Eng_White {
+		position: absolute;
+		width: 635.838px;
+		height: 118.738px;
+		left: 323.231px;
+		top: 3442.008px;
+		overflow: visible;
+	}
+	#__Mamoru_Tanabe__2020 {
+		left: 390px;
+		top: 3585.929px;
+		position: absolute;
+		overflow: visible;
+		width: 505px;
+		height: 34px;
+		text-align: center;
+		font-family: Arial;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 15px;
+		color: rgba(255,255,255,1);
+	}
+	#instagram_u {
+		fill: transparent;
+		stroke: rgba(60,190,200,1);
+		stroke-width: 2px;
+		stroke-linejoin: miter;
+		stroke-linecap: butt;
+		stroke-miterlimit: 4;
+		shape-rendering: auto;
+	}
+	.instagram_u {
+		overflow: visible;
+		position: absolute;
+		width: 1078px;
+		height: 1px;
+		left: 101px;
+		top: 2811.929px;
+		transform: matrix(1,0,0,1,0,0);
+	}
+	#Top {
+		position: absolute;
+		width: 500px;
+		height: 143.739px;
+		left: 101px;
+		top: 2852px;
+		overflow: visible;
+		cursor: pointer;
+	}
+	#QE {
+		position: absolute;
+		width: 500px;
+		height: 336.199px;
+		left: 640px;
+		top: 2852px;
+		overflow: visible;
+		cursor: pointer;
+	}
+}

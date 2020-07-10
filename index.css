@@ -1,0 +1,559 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+@media screen and (min-width:0px){
+	#index {
+		position: relative;
+		margin-left: auto;
+		margin-right: auto;
+		text-align: center;
+		width: 375px;
+		height: 3174px;
+		background-color: rgba(255,255,255,1);
+		overflow: hidden;
+	}
+	#arrow {
+		fill: rgba(60,190,200,1);
+	}
+	.arrow {
+		overflow: visible;
+		position: absolute;
+		width: 26px;
+		height: 30px;
+		left: 174px;
+		top: 537px;
+		transform: matrix(1,0,0,1,0,0);
+	}
+	#Eng_Black {
+		position: absolute;
+		width: 300px;
+		height: 56.023px;
+		left: 38px;
+		top: 283px;
+		overflow: visible;
+	}
+	#ID74vivid {
+		left: 46.5px;
+		top: 1268px;
+		position: absolute;
+		overflow: visible;
+		width: 282px;
+		height: 450.93994140625px;
+		text-align: left;
+		font-family: Arial;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 14px;
+		color: rgba(0,0,0,1);
+	}
+	#sta {
+		left: 46.5px;
+		top: 1213px;
+		position: absolute;
+		overflow: visible;
+		width: 267px;
+		height: 25px;
+		text-align: left;
+		font-family: Arial;
+		font-style: normal;
+		font-weight: bold;
+		font-size: 20px;
+		color: rgba(66,66,66,1);
+	}
+	#sta_u {
+		fill: transparent;
+		stroke: rgba(60,190,200,1);
+		stroke-width: 5px;
+		stroke-linejoin: miter;
+		stroke-linecap: butt;
+		stroke-miterlimit: 4;
+		shape-rendering: auto;
+	}
+	.sta_u {
+		overflow: visible;
+		position: absolute;
+		width: 297px;
+		height: 1px;
+		left: 39px;
+		top: 1245px;
+		transform: matrix(1,0,0,1,0,0);
+	}
+	#ARdetail {
+		left: 46.5px;
+		top: 1796px;
+		position: absolute;
+		overflow: visible;
+		width: 282px;
+		height: 442.721923828125px;
+		text-align: left;
+		font-family: Arial;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 14px;
+		color: rgba(0,0,0,1);
+	}
+	#ARtitle {
+		left: 46.5px;
+		top: 1741px;
+		position: absolute;
+		overflow: visible;
+		width: 267px;
+		height: 25px;
+		text-align: left;
+		font-family: Arial;
+		font-style: normal;
+		font-weight: bold;
+		font-size: 20px;
+		color: rgba(66,66,66,1);
+	}
+	#AR_u {
+		fill: transparent;
+		stroke: rgba(60,190,200,1);
+		stroke-width: 5px;
+		stroke-linejoin: miter;
+		stroke-linecap: butt;
+		stroke-miterlimit: 4;
+		shape-rendering: auto;
+	}
+	.AR_u {
+		overflow: visible;
+		position: absolute;
+		width: 297px;
+		height: 1px;
+		left: 39px;
+		top: 1773px;
+		transform: matrix(1,0,0,1,0,0);
+	}
+	#work {
+		left: 55px;
+		top: 2484px;
+		position: absolute;
+		overflow: visible;
+		width: 267px;
+		height: 24px;
+		text-align: left;
+		font-family: Arial;
+		font-style: normal;
+		font-weight: bold;
+		font-size: 20px;
+		color: rgba(66,66,66,1);
+	}
+	#mt_u {
+		fill: transparent;
+		stroke: rgba(60,190,200,1);
+		stroke-width: 3px;
+		stroke-linejoin: miter;
+		stroke-linecap: butt;
+		stroke-miterlimit: 4;
+		shape-rendering: auto;
+	}
+	.mt_u {
+		overflow: visible;
+		position: absolute;
+		width: 591px;
+		height: 1px;
+		left: -107.5px;
+		top: 370.5px;
+		transform: matrix(1,0,0,1,0,0);
+	}
+	#mt_t {
+		fill: transparent;
+		stroke: rgba(60,190,200,1);
+		stroke-width: 3px;
+		stroke-linejoin: miter;
+		stroke-linecap: butt;
+		stroke-miterlimit: 4;
+		shape-rendering: auto;
+	}
+	.mt_t {
+		overflow: visible;
+		position: absolute;
+		width: 591px;
+		height: 1px;
+		left: -107.5px;
+		top: 251.5px;
+		transform: matrix(1,0,0,1,0,0);
+	}
+	#vi_published_02 {
+		position: absolute;
+		width: 280px;
+		height: 197.862px;
+		left: 48px;
+		top: 756px;
+		overflow: visible;
+	}
+	#work_u {
+		fill: transparent;
+		stroke: rgba(60,190,200,1);
+		stroke-width: 5px;
+		stroke-linejoin: miter;
+		stroke-linecap: butt;
+		stroke-miterlimit: 4;
+		shape-rendering: auto;
+	}
+	.work_u {
+		overflow: visible;
+		position: absolute;
+		width: 297px;
+		height: 1px;
+		left: 39.5px;
+		top: 2516px;
+		transform: matrix(1,0,0,1,0,0);
+	}
+	#AR {
+		fill: transparent;
+		stroke: rgba(112,112,112,1);
+		stroke-width: 1px;
+		stroke-linejoin: miter;
+		stroke-linecap: butt;
+		stroke-miterlimit: 4;
+		shape-rendering: auto;
+	}
+	.AR {
+		position: absolute;
+		overflow: visible;
+		width: 233px;
+		height: 131px;
+		left: 44px;
+		top: 2261px;
+	}
+	#IMG_7434 {
+		position: absolute;
+		width: 110px;
+		height: 109px;
+		left: 222px;
+		top: 2338px;
+		overflow: visible;
+	}
+	#footer {
+		fill: rgba(38,122,127,1);
+	}
+	.footer {
+		position: absolute;
+		overflow: visible;
+		width: 375px;
+		height: 146px;
+		left: -50px;
+		top: 3028px;
+	}
+	#Eng_White {
+		position: absolute;
+		width: 200px;
+		height: 37.348px;
+		left: 88px;
+		top: 3073px;
+		overflow: visible;
+	}
+	#__Mamoru_Tanabe__2020 {
+		left: 103px;
+		top: 3138px;
+		position: absolute;
+		overflow: visible;
+		width: 170px;
+		height: 11px;
+		text-align: center;
+		font-family: Arial;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 10px;
+		color: rgba(255,255,255,1);
+	}
+	#QE {
+		position: absolute;
+		width: 320px;
+		height: 215.167px;
+		left: 28px;
+		top: 2519px;
+		overflow: visible;
+		cursor: pointer;
+	}
+	#yasaka {
+		position: absolute;
+		width: 320px;
+		height: 215.167px;
+		left: 28px;
+		top: 2737px;
+		overflow: visible;
+		cursor: pointer;
+	}
+}
+
+@media screen and (min-width:900px){
+	#index {
+		position: relative;
+		margin-left: auto;
+		margin-right: auto;
+		text-align: center;
+		width: 1280px;
+		height: 3063px;
+		background-color: rgba(255,255,255,1);
+		overflow: hidden;
+	}
+	#Eng_Black {
+		position: absolute;
+		width: 536.777px;
+		height: 100.239px;
+		left: 365.076px;
+		top: 350.022px;
+		overflow: visible;
+	}
+	#footer {
+		fill: rgba(38,122,127,1);
+	}
+	.footer {
+		position: absolute;
+		overflow: visible;
+		width: 1280px;
+		height: 285px;
+		left: 0px;
+		top: 2779px;
+	}
+	#ID74vivid {
+		left: 139.642px;
+		top: 1326px;
+		position: absolute;
+		overflow: visible;
+		width: 1001px;
+		height: 201.0224609375px;
+		text-align: left;
+		font-family: Arial;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 14px;
+		color: rgba(0,0,0,1);
+	}
+	#sta {
+		left: 108.642px;
+		top: 1264px;
+		position: absolute;
+		overflow: visible;
+		width: 1047.616px;
+		height: 32px;
+		text-align: left;
+		font-family: Arial;
+		font-style: normal;
+		font-weight: bold;
+		font-size: 30px;
+		color: rgba(66,66,66,1);
+	}
+	#sta_u {
+		fill: transparent;
+		stroke: rgba(60,190,200,1);
+		stroke-width: 2px;
+		stroke-linejoin: miter;
+		stroke-linecap: butt;
+		stroke-miterlimit: 4;
+		shape-rendering: auto;
+	}
+	.sta_u {
+		overflow: visible;
+		position: absolute;
+		width: 1078px;
+		height: 1px;
+		left: 101px;
+		top: 1305px;
+		transform: matrix(1,0,0,1,0,0);
+	}
+	#ARdetail {
+		left: 131.642px;
+		top: 1660px;
+		position: absolute;
+		overflow: visible;
+		width: 1001px;
+		height: 211.20556640625px;
+		text-align: left;
+		font-family: Arial;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 14px;
+		color: rgba(0,0,0,1);
+	}
+	#ARtitle {
+		left: 108.642px;
+		top: 1597px;
+		position: absolute;
+		overflow: visible;
+		width: 1047.616px;
+		height: 33px;
+		text-align: left;
+		font-family: Arial;
+		font-style: normal;
+		font-weight: bold;
+		font-size: 30px;
+		color: rgba(66,66,66,1);
+	}
+	#AR_u {
+		fill: transparent;
+		stroke: rgba(60,190,200,1);
+		stroke-width: 2px;
+		stroke-linejoin: miter;
+		stroke-linecap: butt;
+		stroke-miterlimit: 4;
+		shape-rendering: auto;
+	}
+	.AR_u {
+		overflow: visible;
+		position: absolute;
+		width: 1078px;
+		height: 1px;
+		left: 101px;
+		top: 1639px;
+		transform: matrix(1,0,0,1,0,0);
+	}
+	#mt_u {
+		fill: transparent;
+		stroke: rgba(60,190,200,1);
+		stroke-width: 1px;
+		stroke-linejoin: miter;
+		stroke-linecap: butt;
+		stroke-miterlimit: 4;
+		shape-rendering: auto;
+	}
+	.mt_u {
+		overflow: visible;
+		position: absolute;
+		width: 1344px;
+		height: 1px;
+		left: -39.5px;
+		top: 482.5px;
+		transform: matrix(1,0,0,1,0,0);
+	}
+	#mt_t {
+		fill: transparent;
+		stroke: rgba(60,190,200,1);
+		stroke-width: 1px;
+		stroke-linejoin: miter;
+		stroke-linecap: butt;
+		stroke-miterlimit: 4;
+		shape-rendering: auto;
+	}
+	.mt_t {
+		overflow: visible;
+		position: absolute;
+		width: 1359px;
+		height: 1px;
+		left: -39.5px;
+		top: 318.5px;
+		transform: matrix(1,0,0,1,0,0);
+	}
+	#vi_published_02 {
+		position: absolute;
+		width: 465px;
+		height: 329.862px;
+		left: 408px;
+		top: 856px;
+		overflow: visible;
+	}
+	#AR {
+		fill: transparent;
+		stroke: rgba(112,112,112,1);
+		stroke-width: 1px;
+		stroke-linejoin: miter;
+		stroke-linecap: butt;
+		stroke-miterlimit: 4;
+		shape-rendering: auto;
+	}
+	.AR {
+		position: absolute;
+		overflow: visible;
+		width: 270px;
+		height: 153px;
+		left: 134px;
+		top: 1883px;
+	}
+	#Eng_White {
+		position: absolute;
+		width: 635.839px;
+		height: 118.738px;
+		left: 323.231px;
+		top: 2849.08px;
+		overflow: visible;
+	}
+	#__Mamoru_Tanabe__2020 {
+		left: 390px;
+		top: 2993px;
+		position: absolute;
+		overflow: visible;
+		width: 505px;
+		height: 34px;
+		text-align: center;
+		font-family: Arial;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 15px;
+		color: rgba(255,255,255,1);
+	}
+	#arrow {
+		fill: rgba(60,190,200,1);
+	}
+	.arrow {
+		overflow: visible;
+		position: absolute;
+		width: 37px;
+		height: 43px;
+		left: 622px;
+		top: 669px;
+		transform: matrix(1,0,0,1,0,0);
+	}
+	#work {
+		left: 108.642px;
+		top: 2174px;
+		position: absolute;
+		overflow: visible;
+		width: 1047.616px;
+		height: 33px;
+		text-align: left;
+		font-family: Arial;
+		font-style: normal;
+		font-weight: bold;
+		font-size: 30px;
+		color: rgba(66,66,66,1);
+	}
+	#work_u {
+		fill: transparent;
+		stroke: rgba(60,190,200,1);
+		stroke-width: 2px;
+		stroke-linejoin: miter;
+		stroke-linecap: butt;
+		stroke-miterlimit: 4;
+		shape-rendering: auto;
+	}
+	.work_u {
+		overflow: visible;
+		position: absolute;
+		width: 1078px;
+		height: 1px;
+		left: 101px;
+		top: 2216px;
+		transform: matrix(1,0,0,1,0,0);
+	}
+	#IMG_7434 {
+		position: absolute;
+		width: 90px;
+		height: 89px;
+		left: 359px;
+		top: 1992px;
+		overflow: visible;
+	}
+	#yasaka {
+		position: absolute;
+		width: 500px;
+		height: 336.199px;
+		left: 640px;
+		top: 2237px;
+		overflow: visible;
+		cursor: pointer;
+		margin: 0;
+		padding: 0;
+	}
+	#QE {
+		position: absolute;
+		width: 500px;
+		height: 336.199px;
+		left: 101px;
+		top: 2237px;
+		overflow: visible;
+		cursor: pointer;
+	}
+}
